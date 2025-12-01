@@ -118,8 +118,8 @@ This makes the project useful for:
 ---
 
 ## Authors:
-Boppena Nagaraju
-Akshay B M
+* Boppena Nagaraju
+* Akshay B M
 
 ## 🙏 Acknowledgements
 
