@@ -1,6 +1,6 @@
 # Scalar Field Generation and Feature Tracking Toolkit
 
-This project provides tools to **generate, visualize, and analyze 2D scalar fields** using a variety of mathematical distributions. It also includes interactive visualization using **VTK** and a GUI built with **PyQt5/QML**.
+This project provides tools to **generate, visualize, and analyze 2D scalar fields** using a variety of mathematical distributions. It also includes interactive visualization using **VTK** and a GUI built with **PyQt5**.
 
 The system allows users to:
 
