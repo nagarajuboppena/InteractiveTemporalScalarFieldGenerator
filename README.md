@@ -117,6 +117,10 @@ This makes the project useful for:
 
 ---
 
+## Authors:
+Boppena Nagaraju
+Akshay B M
+
 ## 🙏 Acknowledgements
 
 This work was developed as part of a project under the guidance of **Prof. Vijay Natarajan**, IISc Bangalore.
