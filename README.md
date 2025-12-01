@@ -5,7 +5,7 @@ This project provides tools to **generate, visualize, and analyze 2D scalar fiel
 The system allows users to:
 
 * Generate scalar fields using Gaussian, Cauchy, Mexican Hat, Exponential Decay, and other custom functions.
-* Add multiple noise models including Gaussian noise, salt-and-pepper noise, Perlin noise, and Gaussian-few noise.
+* Add multiple noise models including Gaussian noise, salt-and-pepper noise,  Gaussian White noise and Gaussian blobs noise.
 * Visualize scalar fields, contour lines, and vector fields.
 * Track Gaussian features over time.
 
@@ -22,14 +22,12 @@ The following 2D distributions are supported:
 * **Mexican Hat (Laplacian of Gaussian)**
 * **Exponential Decay**
 * **Anisotropic Gaussian**
-* **Ridge / Multi-lobe / Plateau functions**
 
 Each distribution can be placed at arbitrary positions with configurable:
 
 * Amplitude
 * Variance / scale
 * Orientation
-* Spread parameters
 
 ---
 
@@ -41,26 +39,13 @@ You can apply noise to scalar fields:
 * Salt noise
 * Pepper noise
 * Salt-and-pepper noise
-* Poisson noise
-* Uniform noise
-* Speckle noise
-* Laplace noise
-* Perlin noise
+* Gaussian White noise
 * **Gaussian-Few Noise** (multiple small Gaussian bumps)
 
 ---
 
-### **3. Visualization Tools (VTK)**
 
-* Contour plots
-* Color heatmaps
-* Streamlines (for vector fields)
-* Real-time VTK window inside the GUI
-* Adjustable color maps and zoom
-
----
-
-### **4. GUI (PyQt5/QML)**
+### **4. GUI (PyQt5)**
 
 Includes:
 
@@ -80,7 +65,6 @@ Python 3.8+
 PyQt5
 VTK
 numpy
-noise   (for Perlin noise)
 math
 ```
 
@@ -103,9 +87,6 @@ cd your-repo
 
 ### **2. Install Dependencies**
 
-```bash
-pip install -r requirements.txt
-```
 
 ### **3. Run the Application**
 
@@ -113,30 +94,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-If using QML:
 
-```bash
-python gui_qml.py
-```
-
----
-
-## 📁 Project Structure
-
-```
-project/
- ├── main.py                 # Main launcher
- ├── gui.py                  # PyQt5 GUI
- ├── gui_qml.py              # QML + Python launcher
- ├── generators.py           # Scalar field generation
- ├── noise_models.py         # Noise functions
- ├── vtk_viewer.py           # VTK window
- ├── utils/                  # Math utilities
- ├── README.md               # Documentation
- └── requirements.txt        # Dependencies
-```
-
----
 
 ## 🎯 Real‑World Applications
 
